@@ -10,7 +10,8 @@ from xgboost import XGBClassifier
 
 #%matplotlib inline
 sns.set_style("whitegrid")
-#df = pd.read_csv("C:\\Users\\jayak\\OneDrive\\Desktop\\we\\XGBoost\\content\\content\\Wholesale-customers-data.csv")
+
+#Replace with your original path
 df = pd.read_csv(r"C:\Users\jayak\OneDrive\Desktop\we\XGBoost\content\Wholesale-customers-data.csv")
 df.head()
 print("\nStatistical Summary")
